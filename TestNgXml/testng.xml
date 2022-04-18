@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.qa.base.Listener"/>
+</listeners>
+
+  <test thread-count="5" name="Test">
+<parameter name="browser" value="chrome" />
+
+  <parameter name="userName" value="admin" />
+		<parameter name="password" value="admin" />
+  
+    <classes>
+  
+  <!-- <class name="com.qa.testcase.DashboardpageTestCase"/>   
+     <class name="com.qa.testcase.ManageExpenseTestCase"/>  
+        <class name="com.qa.testcase.ManageProductTestCase"/>   
+                <class name="com.qa.testcase.AdminUserTestCase"/>    
+           <class name="com.qa.testcase.ManageNewsTestCase"/>     
+          
+         <class name="com.qa.testcase.ManageLocationTestCase"/>   
+               <class name="com.qa.testcase.ManageDeliveryBoyTestCase"/>   
+             <class name="com.qa.testcase.ManageCODTestCase"/>    
+             <class name="com.qa.testcase.ManageSliderTestCase"/>  
+            <class name="com.qa.testcase.MobileSliderTestCase"/> 
+            <class name="com.qa.testcase.ManageOfferCodeTestCase"/>   
+            <class name="com.qa.testcase.PushNotificationTestCase"/>  
+            <class name="com.qa.testcase.ManagePageTestCase"/>  -->
+             <class name="com.qa.testcase.LoginTestCase"/>  
+              
+              
+             <!--  <class name="com.qa.testcase.LoginTestCase">
+              
+              <methods>
+        <include name="addLocationTestCase" />
+        <include name="addDepartmentTestCase" />
+        <exclude name="addEmployeeTestCase" />
+      </methods>
+      </class> -->
+                     
+               
+             
+              
+            
+          
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

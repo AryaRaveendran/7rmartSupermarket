@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3965" started-at="2022-04-18T23:38:24 IST" finished-at="2022-04-18T23:38:28 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3965" started-at="2022-04-18T23:38:24 IST" finished-at="2022-04-18T23:38:28 IST">
+      <class name="com.qa.testcase.LoginTestCase">
+        <test-method status="PASS" signature="initilization()[pri:0, instance:com.qa.testcase.LoginTestCase@3ce1e309]" name="initilization" is-config="true" duration-ms="3566" started-at="2022-04-18T23:38:20 IST" finished-at="2022-04-18T23:38:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilization -->
+        <test-method status="PASS" signature="InvalidloginTC2()[pri:0, instance:com.qa.testcase.LoginTestCase@3ce1e309]" name="InvalidloginTC2" is-config="true" duration-ms="1256" started-at="2022-04-18T23:38:24 IST" finished-at="2022-04-18T23:38:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidloginTC2 -->
+        <test-method status="PASS" signature="BlankUserNameloginTC4()[pri:0, instance:com.qa.testcase.LoginTestCase@3ce1e309]" name="BlankUserNameloginTC4" duration-ms="324" started-at="2022-04-18T23:38:25 IST" finished-at="2022-04-18T23:38:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlankUserNameloginTC4 -->
+        <test-method status="PASS" signature="InvalidloginTC2()[pri:0, instance:com.qa.testcase.LoginTestCase@3ce1e309]" name="InvalidloginTC2" is-config="true" duration-ms="788" started-at="2022-04-18T23:38:25 IST" finished-at="2022-04-18T23:38:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidloginTC2 -->
+        <test-method status="PASS" signature="BlankloginTC3()[pri:0, instance:com.qa.testcase.LoginTestCase@3ce1e309]" name="BlankloginTC3" duration-ms="186" started-at="2022-04-18T23:38:26 IST" finished-at="2022-04-18T23:38:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlankloginTC3 -->
+        <test-method status="PASS" signature="InvalidloginTC2()[pri:0, instance:com.qa.testcase.LoginTestCase@3ce1e309]" name="InvalidloginTC2" is-config="true" duration-ms="791" started-at="2022-04-18T23:38:26 IST" finished-at="2022-04-18T23:38:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidloginTC2 -->
+        <test-method status="PASS" signature="InvalidloginTC2()[pri:0, instance:com.qa.testcase.LoginTestCase@3ce1e309]" name="InvalidloginTC2" duration-ms="478" started-at="2022-04-18T23:38:27 IST" finished-at="2022-04-18T23:38:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidloginTC2 -->
+      </class> <!-- com.qa.testcase.LoginTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
